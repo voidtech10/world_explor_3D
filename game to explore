@@ -1,0 +1,30 @@
+# World Explorer 3D
+
+A simple 3D world exploration game built with vanilla JavaScript and Canvas API.
+
+## Features
+- **Free movement** with W/A/S/D keys
+- **Looking around** with arrow keys
+- **Isometric 3D projection** of world objects
+- **Distance-based rendering** with painter's algorithm
+- **Real-time position and angle tracking**
+
+## Controls
+- **W** - Move forward
+- **S** - Move backward
+- **A** - Strafe left
+- **D** - Strafe right
+- **Left Arrow** - Turn left
+- **Right Arrow** - Turn right
+
+## Play Online
+Visit: https://voidtech10.github.io/world_explorer_3d
+
+## How It Works
+The game uses a simple isometric projection to render 3D objects on a 2D canvas. Objects are sorted by distance from the player and rendered back-to-front using the painter's algorithm. The movement system supports both rotation and strafing for full 2D navigation.
+
+## Future Improvements
+- Add collision detection
+- Implement proper 3D rendering (using WebGL)
+- Add more interactive world elements
+- Performance optimization for many objects
